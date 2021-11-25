@@ -1,0 +1,11 @@
+sudo apt-get update
+sudo apt-get install chromium-browser
+sudo chromium-browser --no-sandbox
+
+cd /home/workspace
+jupyter-notebook --port 3002 --ip=0.0.0.0 --allow-root
+
+copy link in Chromium
+http://127.0.0.1:3002/?token=a2ac07184cdb42db9b7fb0a2ed929b6927e7ba39fec29873
+
+https://github.com/MSeify123/tmpshare
