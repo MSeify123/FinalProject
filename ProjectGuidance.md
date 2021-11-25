@@ -1,4 +1,4 @@
-The project was started by having a look on the ocmplete project and what is required to be done in order to achieve success.
+The project was started by having a look on the complete project and what is required to be done in order to achieve success.
 
 I am workong on the Workspace/VM so I am not using Github or any sort of configuation management what so ever.
 
@@ -191,3 +191,8 @@ Note:
 Improvements can be further done, but due to the VM time limitations I was not able udpate the model more than that.
 Recall needs to be improved -> Augmentations needs update.
 
+6) Git repo was created after finishing the project
+===================================================
+a) Creation of local repo
+b) Creation of repo on GitHub
+c) Push from local to GitHub
