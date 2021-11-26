@@ -76,7 +76,7 @@ def split(data_dir):
         else:
             shutil.move(Path_to_File, destination_validation_path)
             
-           
+    #Just to move files from /data/waymo/test to data/test       
     for i in range (0,3):
         #Get a random file from the test directory
         filename = random.choice(os.listdir(data_dir_test))

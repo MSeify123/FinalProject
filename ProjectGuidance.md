@@ -122,14 +122,15 @@ INFO:tensorflow:    + Loss/total_loss: 0.888714
 I1126 00:10:29.668511 140586117482240 model_lib_v2.py:991]  + Loss/total_loss: 0.888714
 
 Analysis:
-I was surprised that the precision and recall are low.
-The model does not recognize far vehicles.
-The model did not recognize parked vehicles in dark areas (can be improved by augmentation brightness by increasing the delta value)
-I believe also adding an augmentation regarding blue or image quality may improve the behaviour.
-I tried to improve them but did not get much time.
-This can also be noticed from the annimations.
+Training and validation loss are not so different. But both numbers need to be decreased by improving the model. Please refer to FinalResults directory"
+I was surprised that the precision and recall are low. Please refer to FinalResults directory"
+The model does not recognize far vehicles. Noticed by generating the gifs
+The model did not recognize parked vehicles in dark areas (can be improved by augmentation brightness by increasing the delta value) Noticed by generating the gifs
+I believe also adding an augmentation regarding blue or image quality may improve the behaviour. Noticed by generating the gifs
+I tried to improve them but did not get much time. Noticed by generating the gifs
 
-I also did not like the fact that the test dataset did not include cyclist detection.
+
+I also did not like the fact that the test dataset did not include cyclist detection. I should have added extra tfrecord to ensure that the mdoel can capture that.
 
 Suggestion--> learn more about the effects of augmentations, optimizers and learning rates. I think these topics need to be more studied, by this I can have better starting point and save myself alot of time.
 But thanks to trying I was able to understand a lot of things now and definetly l learned something that I am so proud of.
