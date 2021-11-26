@@ -1,6 +1,6 @@
 The project was started by having a look on the complete project and what is required to be done in order to achieve success.
 
-I am workong on the Workspace/VM so I am not using Github or any sort of configuation management what so ever.
+I used the Workspace/VM to perform the project
 
 I started by analysis the tfrecords in the training_and_validation directory.
 
