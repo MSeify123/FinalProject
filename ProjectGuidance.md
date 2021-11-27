@@ -19,6 +19,7 @@ to automatically take number of batches and store the images in the /home/worksp
 Update ------> Class distribution
 I have created a bar diagram that shows the amount of the 3 different classes in each dataset (train, val and test) by taking 500 samples
 and as expected, there are not cyclist labels found in the test_dataset --> suggesstion is to update the testdataset to guarantee the performance of the model.
+Result can be found under EDA directory.
 
 But for the other datasets, I believe the random split is not a bad choice.
 Continue with the same chosen strategy.
