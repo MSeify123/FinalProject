@@ -16,6 +16,13 @@ b) to use the get_dataset interface to get the dataset from all the tfrecords fi
 Then I wanted to have a look on the images to make a good analysis on the dataset so I created getting_images_from_dataset.py
 to automatically take number of batches and store the images in the /home/workspace/Photos folder.
 
+Update ------> Class distribution
+I have created a bar diagram that shows the amount of the 3 different classes in each dataset (train, val and test) by taking 500 samples
+and as expected, there are not cyclist labels found in the test_dataset --> suggesstion is to update the testdataset to guarantee the performance of the model.
+
+But for the other datasets, I believe the random split is not a bad choice.
+Continue with the same chosen strategy.
+
 2) Analyzing the Dataset
 ========================
 
